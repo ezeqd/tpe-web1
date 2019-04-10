@@ -1,24 +1,37 @@
 html {
   box-sizing: border-box;
 }
-*, *:before,*:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: verdana, geneva,serif;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: verdana, geneva, serif;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+ 
+  
 }
+
 header {
   padding: 20px 0;
 }
+
 div.contenedor {
   width: 1200px;
   margin: 0 auto;
 }
+
 /**navegacion**/
 .navegacion {
   background-color: rgba(0, 0, 0, 0.85);
@@ -28,140 +41,192 @@ nav {
   position: relative;
   margin 0 auto;
 }
+
 nav ul {
   margin-left: auto;
   list-style: none;
 }
-nav > ul > li {
+
+nav>ul>li {
   float: left;
 }
+
 nav ul::after {
-  content:'';
+  content: '';
   display: block;
   clear: both;
 }
+
 nav ul li a {
   color: white;
-  padding: 20px; 
+  padding: 20px;
   text-align: center;
-  text-decoration:none;
+  text-decoration: none;
   display: inline-block;
   width: 150px
 }
+
 nav ul li a:hover {
   background-color: #00b8e4;
 }
+
 /**segundo nivel**/
 nav ul ul {
   position: absolute;
-  top:100%;
-  background-color: rgba(0,184,228,0.7);
+  top: 100%;
+  background-color: rgba(0, 184, 228, 0.7);
   display: none;
 }
-nav ul li:hover > ul {
+
+nav ul li:hover>ul {
   display: block;
 }
+
 nav ul li:hover {
-  background-color:  rgba(0,184,228,1)
+  background-color: rgba(0, 184, 228, 1)
 }
+
 /** Contenido principal**/
 div.contenido::after {
   content: '';
   display: block;
   clear: both;
 }
+
 main {
   width: 70%;
   float: left;
   padding-right: 40px;
 }
+
 /** Entradas de post**/
 article {
   margin-top: 30px;
 }
+
 h2 {
   color: #00b8e4;
 }
+
 article img {
-  float:left;
+  float: left;
   width: 300px;
   margin-right: 30px;
 }
+
 article p {
+  
+  color: coral;
   line-height: 2;
   text-align: justify;
+  font-size: 17px;
 }
+
 .boton {
-  background-color: #00b8e4;
+  background-color: rgba(0, 0, 0, 0.85);
   padding: 10px 30px;
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
-  color:#ffffff;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
 }
-/** Sider**/
 
+/** Sider**/
 aside {
   float: right;
   width: 30%;
   margin-top: 30px;
 }
+
 aside ul {
   list-style: none;
 }
+
 aside ul li {
-  padding: 10px; 0 10px 10px;
+  padding: 10px;
+  0 10px 10px;
 }
+
 aside ul li:hover {
-  background-color: #00b834;
+  background-color:rgba(0, 0, 0, 0.85);
   cursor: pointer;
+  width: 200px;
 }
+
 aside ul li a {
-  color: #00b834;
+  color: #edf5ef;
   padding: 10px 0;
   text-decoration: none;
+
 }
+
 aside ul li:hover a {
   color: #ffffff;
 }
+
 /**Footer**/
 footer {
   background-color: #cac7df;
   padding-top: 40px;
   margin-top: 30px;
 }
+
 footer h2 {
   color: black;
 }
+
 footer .contenedor::after {
   content: '';
-  display:block;
+  display: block;
   clear: both;
 }
+
 footer div.nosotros {
   float: left;
   width: 30%;
   color: black;
 }
+
 p.copyright {
-    padding: 20px 0;
-    text-align: center;
-    color: rgb(9, 5, 252);
+  padding: 20px 0;
+  text-align: center;
+  color: rgb(9, 5, 252);
 }
+
 /**Destino**/
 .lista-destinos {
   width: 100%;
-  
+
 }
+
 .lista-destinos p {
   float: right;
   width: 60%;
+  color: rgba(0, 0, 0, 1);
 }
+
 .paris {
   width: 250px;
 }
+
 .madrid {
   width: 250px;
+}
+
+/**Tarifas**/
+table {
+  width: 100%;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 3px solid cadetblue;
+}
+
+td {
+  text-align: center;
 }

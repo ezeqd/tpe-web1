@@ -23,7 +23,7 @@ div.contenedor {
 
 /**navegacion**/
 .navegacion {
-  background-color: orangered;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 nav {
   width: 1200px;
@@ -43,12 +43,13 @@ nav ul::after {
   clear: both;
 }
 nav ul li a {
+  color: white;
   display: inline-block;
   width: 200px
-  color:#ffffff;
-  text-decoration: none;
   text-align: center;
+  text-decoration:none;
   padding: 20px;
+  
 }
 nav ul li a:hover {
   background-color: #00b8e4;

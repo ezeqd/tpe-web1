@@ -19,20 +19,18 @@ div.contenedor {
   width: 1200px;
   margin: 0 auto;
 }
-
-
 /**navegacion**/
 .navegacion {
   background-color: rgba(0, 0, 0, 0.85);
 }
 nav {
   width: 1200px;
-  margin 0 auto;
   position: relative;
+  margin 0 auto;
 }
 nav ul {
-  list-style: none;
   margin-left: auto;
+  list-style: none;
 }
 nav > ul > li {
   float: left;
@@ -44,12 +42,11 @@ nav ul::after {
 }
 nav ul li a {
   color: white;
-  display: inline-block;
-  width: 200px
+  padding: 20px; 
   text-align: center;
   text-decoration:none;
-  padding: 20px;
-  
+  display: inline-block;
+  width: 150px
 }
 nav ul li a:hover {
   background-color: #00b8e4;
@@ -152,4 +149,19 @@ p.copyright {
     padding: 20px 0;
     text-align: center;
     color: rgb(9, 5, 252);
+}
+/**Destino**/
+.lista-destinos {
+  width: 100%;
+  
+}
+.lista-destinos p {
+  float: right;
+  width: 60%;
+}
+.paris {
+  width: 250px;
+}
+.madrid {
+  width: 250px;
 }

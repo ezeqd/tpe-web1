@@ -14,27 +14,58 @@ html {
 }
 
 body {
-  font-family: verdana, geneva, serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url(../img/fondo.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: 100%;
- 
- 
   
+}
+p {
+  font-family: 'Source Code Pro', monospace;
+}
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color:darkcyan;
 }
 
 header {
   padding: 20px 0;
 }
 
+
 div.contenedor {
+  background-color: rgba(0, 0, 0, 0.6);
   width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.textlogo {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 100px;
+  color: rgb(168, 168, 168);
+  text-transform: uppercase;
+}
+.subtitulo  {
+  margin-left: 550px;
+}
+span {
+  color: darkcyan;
+}
+.iconfly  {
+  margin-left: 550px;
+  font-size: 40px;
+  color: #50afc7;
+
+}
 /**navegacion**/
 .navegacion {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(168, 168, 168);
 }
 nav {
   width: 1200px;
@@ -67,14 +98,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #00b8e4;
+  background-color: darkcyan;
 }
 
 /**segundo nivel**/
 nav ul ul {
   position: absolute;
   top: 100%;
-  background-color: rgba(0, 184, 228, 0.7);
+  background-color: #50afc7;
   display: none;
 }
 
@@ -83,10 +114,11 @@ nav ul li:hover>ul {
 }
 
 nav ul li:hover {
-  background-color: rgba(0, 184, 228, 1)
+  background-color:  #50afc7;
 }
 
 /** Contenido principal**/
+
 div.contenido::after {
   content: '';
   display: block;
@@ -97,16 +129,19 @@ main {
   width: 70%;
   float: left;
   padding-right: 40px;
+
 }
 
 /** Entradas de post**/
+.contenido {
+  padding-bottom: 50px;
+}
 article {
   margin-top: 30px;
+  margin-left: 30px;
 }
 
-h2 {
-  color: rgba(34, 37, 218, 0.85);
-}
+
 
 article img {
   float: left;
@@ -115,8 +150,7 @@ article img {
 }
 
 article p {
-  
-  color: coral;
+  color: white;
   line-height: 2;
   text-align: justify;
   font-size: 17px;
@@ -146,7 +180,7 @@ aside ul {
 
 aside ul li {
   padding: 10px;
-  0 10px 10px;
+  
 }
 
 aside ul li:hover {
@@ -168,16 +202,15 @@ aside ul li:hover a {
 
 /**Footer**/
 footer {
-  background-color: #cac7df;
-  padding-top: 40px;
-  margin-top: 30px;
+  background-color: rgb(168, 168, 168);
+  padding-top: 40px; 
 }
 
 footer h2 {
   color: black;
 }
 
-footer .contenedor::after {
+footer .contenedor-footer::after {
   content: '';
   display: block;
   clear: both;
@@ -187,6 +220,11 @@ footer div.nosotros {
   float: left;
   width: 30%;
   color: black;
+  
+}
+
+.nosotros {
+  margin-left: 50px;
 }
 
 p.copyright {
@@ -196,13 +234,17 @@ p.copyright {
 }
 .redes-sociales {
   float: right;
-  width: 20%; 
+  
 }
 .redes-sociales ul li {
+  font-size: 5px;
   list-style: none;
   display: inline-block;
   font-size: 40px;
-  padding: 10px 0 0 10px;
+  padding: 0 20px 0 20px;
+}
+.redes-sociales ul>li {
+  font-size: 30px;
 }
 
 /**Destino**/
@@ -214,23 +256,20 @@ p.copyright {
 .lista-destinos p {
   float: right;
   width: 60%;
-  color: coral;
+  color: white;
   font-size: 18px;
 }
 
-.paris {
+.imagen {
   width: 250px;
 }
-
-.madrid {
-  width: 250px;
-}
-
 /**Tarifas**/
 table {
-  width: 100%;
+  text-align: center;
+  width: 80%;
   height: 200px;
   border-collapse: collapse;
+  margin-left: 100px;
 }
 
 td,

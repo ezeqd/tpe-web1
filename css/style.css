@@ -105,7 +105,7 @@ article {
 }
 
 h2 {
-  color: #00b8e4;
+  color: rgba(34, 37, 218, 0.85);
 }
 
 article img {
@@ -194,6 +194,16 @@ p.copyright {
   text-align: center;
   color: rgb(9, 5, 252);
 }
+.redes-sociales {
+  float: right;
+  width: 20%; 
+}
+.redes-sociales ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 40px;
+  padding: 10px 0 0 10px;
+}
 
 /**Destino**/
 .lista-destinos {
@@ -204,7 +214,8 @@ p.copyright {
 .lista-destinos p {
   float: right;
   width: 60%;
-  color: rgba(0, 0, 0, 1);
+  color: coral;
+  font-size: 18px;
 }
 
 .paris {

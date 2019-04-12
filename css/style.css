@@ -18,7 +18,7 @@ body {
   background-image: url(../img/fondo.jpg);
   background-repeat: round;
   background-size: 100%;
-  
+
 }
 p {
   font-family: 'Source Code Pro', monospace;
@@ -136,12 +136,11 @@ main {
 .contenido {
   padding-bottom: 50px;
 }
+
 article {
   margin-top: 30px;
   margin-left: 30px;
 }
-
-
 
 article img {
   float: left;
@@ -180,7 +179,6 @@ aside ul {
 
 aside ul li {
   padding: 10px;
-  
 }
 
 aside ul li:hover {
@@ -193,7 +191,6 @@ aside ul li a {
   color: #edf5ef;
   padding: 10px 0;
   text-decoration: none;
-
 }
 
 aside ul li:hover a {
@@ -203,7 +200,7 @@ aside ul li:hover a {
 /**Footer**/
 footer {
   background-color: rgb(168, 168, 168);
-  padding-top: 40px; 
+  padding-top: 40px;
 }
 
 footer h2 {
@@ -220,7 +217,6 @@ footer div.nosotros {
   float: left;
   width: 30%;
   color: black;
-  
 }
 
 .nosotros {
@@ -234,7 +230,7 @@ p.copyright {
 }
 .redes-sociales {
   float: right;
-  
+
 }
 .redes-sociales ul li {
   font-size: 5px;
@@ -279,4 +275,10 @@ th {
 
 td {
   text-align: center;
+}
+
+/**contacto**/
+.contacto-form {
+  margin: 0 auto;
+  max-width: 300px;
 }

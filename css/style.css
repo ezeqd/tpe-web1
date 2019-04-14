@@ -24,7 +24,7 @@ p {
   font-family: 'Source Code Pro', monospace;
 }
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
   color:darkcyan;
 }
@@ -59,6 +59,7 @@ div.contenido {
 }
 .subtitulo  {
   margin-left: 550px;
+  font-size: 20px;
 }
 span {
   color: darkcyan;
@@ -188,9 +189,9 @@ aside ul li {
 }
 
 aside ul li:hover {
-  background-color:rgba(0, 0, 0, 0.85);
+  background-color:#50afc7;
   cursor: pointer;
-  width: 200px;
+  width: 233px;
 }
 
 aside ul li a {
@@ -201,6 +202,10 @@ aside ul li a {
 
 aside ul li:hover a {
   color: #ffffff;
+}
+.img-sidebar {
+  width: 233px;
+  margin-top: 10px;
 }
 
 /**Footer**/

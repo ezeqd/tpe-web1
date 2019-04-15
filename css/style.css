@@ -75,13 +75,13 @@ span {
   background-color: rgb(168, 168, 168);
 }
 nav {
-  width: 1200px;
   position: relative;
-  margin 0 auto;
+  margin: 0 auto;
 }
 
 nav ul {
-  margin-left: auto;
+  width: max-content;
+  margin:0 auto;
   list-style: none;
 }
 
@@ -277,7 +277,7 @@ table {
   height: 200px;
   border-collapse: collapse;
   margin-left: 100px;
-  
+
 }
 .tabla h2 {
   width: 100%;
@@ -307,8 +307,32 @@ td {
 /**contacto**/
 .contacto-form {
   margin: 0 auto;
-  max-width: 300px;
+  width: 80%;
+  text-align: center;
 }
 .contacto-form p {
   color: darkcyan;
+  font-size: 1.5em;
+  text-align: center;
+  width: 50%;
+  margin: 0% auto;
+}
+.contacto-form input {
+  width: 40%;
+  height: 30px;
+  padding: 0px 15px;
+  margin: 1% auto;
+  border: 0;
+}
+.contacto-form select {
+  width: 40%;
+  height: 30px;
+  padding: 0px 15px;
+  margin: 1% auto;
+  border: 0;
+}
+.btnEnviar {
+  width: 40%;
+  height: 30px;
+  margin: 1% auto;
 }
